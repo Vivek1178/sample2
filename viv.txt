@@ -25,32 +25,13 @@
    
    
    
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
+  ]   
    
     FROM node:alpine
     COPY . /app
     WORKDIR /app
     CMD node app.js
+    
+    docker build -t filrname .
+    docker image ls
+    
